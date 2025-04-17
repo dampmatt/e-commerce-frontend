@@ -1,0 +1,165 @@
+[
+	{
+	  "id": 1,
+	  "name": "Neon Arcane Hoodie",
+	  "price": 59.99,
+	  "category": "clothes",
+	  "image": "/images/hoodie.jpg",
+	  "rating": 4.5,
+	  "description": "Electric blue hoodie inspired by Jinx's chaotic style.",
+	  "inStock": true
+	},
+	{
+	  "id": 2,
+	  "name": "Vi’s Power Gloves",
+	  "price": 89.99,
+	  "category": "clothes",
+	  "image": "/images/gloves.jpg",
+	  "rating": 4.8,
+	  "description": "Fingerless gloves with faux metal details. Pure Zaun energy.",
+	  "inStock": true
+	},
+	{
+	  "id": 3,
+	  "name": "Jinx Graffiti T-Shirt",
+	  "price": 34.99,
+	  "category": "clothes",
+	  "image": "/images/tshirt.jpg",
+	  "rating": 4.2,
+	  "description": "White tee with spray-paint design. Messy and iconic.",
+	  "inStock": true
+	},
+	{
+	  "id": 4,
+	  "name": "Silco's Trench Coat",
+	  "price": 109.99,
+	  "category": "clothes",
+	  "image": "/images/trenchcoat.jpg",
+	  "rating": 4.6,
+	  "description": "Long, dark, villain-worthy — power coat vibes.",
+	  "inStock": false
+	},
+	{
+	  "id": 5,
+	  "name": "Undercity Street Cap",
+	  "price": 22.5,
+	  "category": "clothes",
+	  "image": "/images/cap.jpg",
+	  "rating": 4.0,
+	  "description": "Dark grey snapback with Zaun green lining.",
+	  "inStock": true
+	},
+  
+	{
+	  "id": 6,
+	  "name": "Piltover Rug",
+	  "price": 39.99,
+	  "category": "home-decor",
+	  "image": "/images/rug.jpg",
+	  "rating": 4.6,
+	  "description": "Steampunk patterned rug with gold thread lining.",
+	  "inStock": true
+	},
+	{
+	  "id": 7,
+	  "name": "Hextech Wall Lamp",
+	  "price": 65.0,
+	  "category": "home-decor",
+	  "image": "/images/lamp.jpg",
+	  "rating": 4.7,
+	  "description": "Wall-mounted lamp with a faint blue glow. Feels magic-infused.",
+	  "inStock": false
+	},
+	{
+	  "id": 8,
+	  "name": "Arcane Art Canvas",
+	  "price": 29.99,
+	  "category": "home-decor",
+	  "image": "/images/canvas.jpg",
+	  "rating": 4.9,
+	  "description": "Large canvas art of Jinx and Vi’s final battle moment.",
+	  "inStock": true
+	},
+	{
+	  "id": 9,
+	  "name": "Zaun Neon Clock",
+	  "price": 42.0,
+	  "category": "home-decor",
+	  "image": "/images/clock.jpg",
+	  "rating": 4.3,
+	  "description": "Neon green-lit wall clock with glitchy effects.",
+	  "inStock": true
+	},
+	{
+	  "id": 10,
+	  "name": "Caitlyn’s Crystal Vase",
+	  "price": 54.0,
+	  "category": "home-decor",
+	  "image": "/images/vase.jpg",
+	  "rating": 4.1,
+	  "description": "Elegant and sharp. Subtle Piltover class.",
+	  "inStock": true
+	},
+	{
+	  "id": 11,
+	  "name": "Echo Projection Orb",
+	  "price": 48.75,
+	  "category": "home-decor",
+	  "image": "/images/orb.jpg",
+	  "rating": 4.5,
+	  "description": "Changes colors with sound — vibey and mysterious.",
+	  "inStock": true
+	},
+  
+	{
+	  "id": 12,
+	  "name": "Zaun Earbuds",
+	  "price": 49.99,
+	  "category": "electronics",
+	  "image": "/images/earbuds.jpg",
+	  "rating": 4.3,
+	  "description": "Dark green noise-cancelling buds with edgy, gritty finish.",
+	  "inStock": true
+	},
+	{
+	  "id": 13,
+	  "name": "Hextech Smartwatch",
+	  "price": 120.0,
+	  "category": "electronics",
+	  "image": "/images/smartwatch.jpg",
+	  "rating": 4.6,
+	  "description": "Sleek digital smartwatch with glowing runes around the edge.",
+	  "inStock": true
+	},
+	{
+	  "id": 14,
+	  "name": "Piltover Bluetooth Speaker",
+	  "price": 75.0,
+	  "category": "electronics",
+	  "image": "/images/speaker.jpg",
+	  "rating": 4.4,
+	  "description": "Polished brass finish, high-quality sound. Looks like a relic.",
+	  "inStock": true
+	},
+	{
+	  "id": 15,
+	  "name": "Jinx Flash Drive (64GB)",
+	  "price": 19.99,
+	  "category": "electronics",
+	  "image": "/images/usb.jpg",
+	  "rating": 4.2,
+	  "description": "Flash drive shaped like Jinx’s rocket — chaotic storage.",
+	  "inStock": true
+	},
+	{
+	  "id": 16,
+	  "name": "Enforcer Headphones",
+	  "price": 84.99,
+	  "category": "electronics",
+	  "image": "/images/headphones.jpg",
+	  "rating": 4.8,
+	  "description": "Deep bass, tactical look. Caitlyn-approved.",
+	  "inStock": true
+	}
+  ]
+  

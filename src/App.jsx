@@ -1,6 +1,7 @@
 import './App.css'
 import { Link, NavLink } from 'react-router'
 import { Outlet } from 'react-router-dom'
+import Header from './components/Header'
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <div>
         <Header />
         <Outlet />
-        <Footer />
+        {/* <Footer /> */}
     </div>
   )
 }
