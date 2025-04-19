@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import { store } from './store/store.js'
 import {Provider} from 'react-redux'
+import Home from './components/Home.jsx'
 
 const router= createBrowserRouter([
   {
@@ -11,8 +12,8 @@ const router= createBrowserRouter([
     element: <App />,
     children:[
       {
-        // path: '/',
-        // element: <App/>,
+        path: '/',
+        element: <Home/>,
       },
     ],
   },
