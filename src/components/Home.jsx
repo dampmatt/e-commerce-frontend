@@ -1,11 +1,17 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom' // Correct import for react-router-dom
+import { increment } from '../store/Slice/counterSlice'
 
 const Home = () => {
   const products = useSelector((state) => state.products.items)
   const loading = useSelector((state) => state.products.loading)
   const isLoggedIn = useSelector((state)=>state.login.login)
+  const dispatch = useDispatch();
+  const handleClick = (prod)=>{
+    dispatch(increment(prod))
+  }
   console.log('products:', products)
 
   return (
@@ -45,7 +51,8 @@ const Home = () => {
                 <button 
                   type='button'
                   className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 cursor-pointer"
-                  disabled= {isLoggedIn}
+                  disabled= {!isLoggedIn}
+                  onClick={()=>handleClick(item)}
                   >
                     Add to cart
                 </button>

@@ -1,16 +1,21 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { Link, NavLink } from 'react-router'
+import { Link, NavLink, useNavigate } from 'react-router'
 import { SignIn, SignOut } from '../store/Slice/loginSlice'
 
 const Header = () => {
   const isLogin = useSelector((state) => state.login.login)
   const dispatch = useDispatch()
+  const navigate= useNavigate();
 
   const handleClick = ()=>{
     if(!isLogin){
       dispatch(SignIn());
     }
+    else{
+      navigate('/cart');
+    }
+    
     
   }
   return (
