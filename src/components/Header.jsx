@@ -8,12 +8,10 @@ const Header = () => {
   const dispatch = useDispatch()
 
   const handleClick = ()=>{
-    if(isLogin){
-      dispatch(SignOut());
-    }
-    else{
+    if(!isLogin){
       dispatch(SignIn());
     }
+    
   }
   return (
     <div className='flex justify-between items-center bg-[#1a1a2e] text-pink-500  px-8  '>
