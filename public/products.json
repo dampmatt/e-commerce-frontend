@@ -5,7 +5,7 @@
 	  "price": 59.99,
 	  "category": "clothes",
 	  "image": "/images/hoodie.jpg",
-	  "rating": 4.5,
+	  "rating": 5,
 	  "description": "Electric blue hoodie inspired by Jinx's chaotic style.",
 	  "inStock": true
 	},
@@ -15,7 +15,7 @@
 	  "price": 89.99,
 	  "category": "clothes",
 	  "image": "/images/gloves.jpg",
-	  "rating": 4.8,
+	  "rating": 3,
 	  "description": "Fingerless gloves with faux metal details. Pure Zaun energy.",
 	  "inStock": true
 	},
@@ -25,7 +25,7 @@
 	  "price": 34.99,
 	  "category": "clothes",
 	  "image": "/images/tshirt.jpg",
-	  "rating": 4.2,
+	  "rating": 5,
 	  "description": "White tee with spray-paint design. Messy and iconic.",
 	  "inStock": true
 	},
@@ -66,7 +66,7 @@
 	  "price": 65.0,
 	  "category": "home-decor",
 	  "image": "/images/lamp.jpg",
-	  "rating": 4.7,
+	  "rating": 2.7,
 	  "description": "Wall-mounted lamp with a faint blue glow. Feels magic-infused.",
 	  "inStock": false
 	},
@@ -76,7 +76,7 @@
 	  "price": 29.99,
 	  "category": "home-decor",
 	  "image": "/images/canvas.jpg",
-	  "rating": 4.9,
+	  "rating": 1.9,
 	  "description": "Large canvas art of Jinx and Vi’s final battle moment.",
 	  "inStock": true
 	},
@@ -86,7 +86,7 @@
 	  "price": 42.0,
 	  "category": "home-decor",
 	  "image": "/images/clock.jpg",
-	  "rating": 4.3,
+	  "rating": 3.3,
 	  "description": "Neon green-lit wall clock with glitchy effects.",
 	  "inStock": true
 	},
@@ -96,7 +96,7 @@
 	  "price": 54.0,
 	  "category": "home-decor",
 	  "image": "/images/vase.jpg",
-	  "rating": 4.1,
+	  "rating": 2.1,
 	  "description": "Elegant and sharp. Subtle Piltover class.",
 	  "inStock": true
 	},
@@ -117,7 +117,7 @@
 	  "price": 49.99,
 	  "category": "electronics",
 	  "image": "/images/earbuds.jpg",
-	  "rating": 4.3,
+	  "rating": 3.3,
 	  "description": "Dark green noise-cancelling buds with edgy, gritty finish.",
 	  "inStock": true
 	},
@@ -127,7 +127,7 @@
 	  "price": 120.0,
 	  "category": "electronics",
 	  "image": "/images/smartwatch.jpg",
-	  "rating": 4.6,
+	  "rating": 2,
 	  "description": "Sleek digital smartwatch with glowing runes around the edge.",
 	  "inStock": true
 	},
@@ -137,7 +137,7 @@
 	  "price": 75.0,
 	  "category": "electronics",
 	  "image": "/images/speaker.jpg",
-	  "rating": 4.4,
+	  "rating": 1.4,
 	  "description": "Polished brass finish, high-quality sound. Looks like a relic.",
 	  "inStock": true
 	},

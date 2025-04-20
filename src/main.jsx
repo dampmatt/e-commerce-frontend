@@ -5,6 +5,7 @@ import App from './App.jsx'
 import { store } from './store/store.js'
 import {Provider} from 'react-redux'
 import Home from './components/Home.jsx'
+import Cart from './components/Cart.jsx'
 
 const router= createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router= createBrowserRouter([
       {
         path: '/',
         element: <Home/>,
+      },
+      {
+        path: '/cart',
+        element: <Cart/>,
       },
     ],
   },
